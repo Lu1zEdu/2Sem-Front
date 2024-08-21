@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom"
+import styles from '../../App.module.css'
 function Menu() {
     return (
       <>
-          <nav className="menu">
+          <nav className={styles.menu}>
               <Link to="/">Home</Link>
               <span> | </span>
               <Link to="/Produtos">Produtos</Link>
