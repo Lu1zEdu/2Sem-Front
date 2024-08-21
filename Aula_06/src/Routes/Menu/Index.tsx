@@ -1,5 +1,5 @@
 
-function Index() {
+function Menu() {
     return (
       <>
           <div>
@@ -9,4 +9,4 @@ function Index() {
     )
   }
   
-export default Index
+export default Menu
