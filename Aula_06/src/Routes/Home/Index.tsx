@@ -1,10 +1,13 @@
-
+import styles from '../../App.module.css'
 function Home() {
   return (
     <>
-        <main>
+        <div className={styles.conteudo}>
+          <main>
             <h1>Home - Index</h1>
-        </main>
+          </main>
+        </div>
+        
     </>
   )
 }
