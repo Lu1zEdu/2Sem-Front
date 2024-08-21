@@ -1,5 +1,6 @@
 import { Outlet } from 'react-router-dom'
 import './App.css'
+import Footer from './Components/Footer'
 import Menu from './Routes/Menu/Index'
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         <h1>Teste</h1>
         <Menu />
         <Outlet />
+        <Footer />
       </div>
     </>
     
