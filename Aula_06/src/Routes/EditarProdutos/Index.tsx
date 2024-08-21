@@ -2,9 +2,13 @@
 function EdotarProdutos() {
   return (
     <>
-        <div>
-            <h1>Editar Produtos</h1>
-        </div>
+        <nav>
+            <ul>
+              <li>Home</li>
+              <li>Produtos</li>
+              <li>Editar Produtos</li>
+            </ul>
+        </nav>
     </>
   )
 }
