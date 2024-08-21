@@ -1,10 +1,13 @@
-
 function Menu() {
     return (
       <>
-          <div>
-              <h1>Menu</h1>
-          </div>
+          <nav>
+            <ul>
+              <li>Home</li>
+              <li>Produtos</li>
+              <li>Editar Produtos</li>
+            </ul>
+        </nav>
       </>
     )
   }
