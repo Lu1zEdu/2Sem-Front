@@ -3,7 +3,7 @@ function Index() {
   return (
     <>
         <div>
-            <h1>Editar Produtos</h1>
+            <h1>Home - Index</h1>
         </div>
     </>
   )
